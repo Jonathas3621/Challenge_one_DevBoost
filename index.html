@@ -3,39 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://kit.fontawesome.com/9d9650b048.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/svg" href="assets/Icon_DevBoost.svg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600;700&family=Inter:wght@400;500&display=swap">
     <title>DevBoost</title>
 </head>
-<body class="flex justify_center">
+<body>
     <div class="container">
 
         <!--Cabeçalho da página-->
 
-        <header class="flex">
-            <a href="" class="flex align_center">
-                <img src="assets/LogoDevBoost.svg" alt="LogoDevBoost">
-            </a>
-            <nav class="main_menu flex align_center">
-                <ul class="flex">
-                    <li><a class="text1" href="">Home</a></li>
-                    <li><a class="text1" href="">Sobre</a></li>
-                    <li><a class="text1" href="">Serviços</a></li>
-                    <li><a class="text1" href="">Benefícios</a></li>
-                    <li><a class="text1" href="">Depoimentos</a></li>
-                    <li><a class="text1" href="">Planos</a></li>
-                </ul>
-                <a class="button" href="">Fale Conosco</a>
-            </nav>
+        <header>
+            <div class="header-left">
+                <a href="#">
+                    <img src="assets/LogoDevBoost.svg" alt="LogoDevBoost">
+                </a>
+                <span class="toggle-container toggle-disabled">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </span>
+            </div>
+                <nav>
+                    <ul class="main_menu">
+                        <li></li>
+                        <li><a class="text1" href="#">Home</a></li>
+                        <li><a class="text1" href="#">Sobre</a></li>
+                        <li><a class="text1" href="#">Serviços</a></li>
+                        <li><a class="text1" href="#">Benefícios</a></li>
+                        <li><a class="text1" href="#">Depoimentos</a></li>
+                        <li><a class="text1" href="#">Planos</a></li>
+                        <li><button class="button" href="#">Fale conosco</button></li>
+                    </ul>
+                </nav>
         </header>
 
         <!-- Conteúdo principal da página -->
 
-        <main class="flex">
+        <!-- <main class="flex">
 
-            <!--Área de textos-->
+            <!-- Área de textos comentários
 
             <section class="text_area flex justify_center"> 
                 <h2 class="text3">Desafio DevBoost</h2>
@@ -55,21 +62,27 @@
                 </div>
             </section>
 
-            <!-- Área das imagens -->
+            <!-- Área das imagens comentários
 
-            <section class="images_area">
-                <div class="waves_container"><img src="assets/Waves.svg" alt=""></div>
-                <div class="back_card"></div>
-                <div class="image_container"></div>
-                <div class="mini_card flex justify_center align_center">
-                    <div class="icon_container lightning"><img src="assets/Lightning.svg" alt=""></div>
-                    <div class="card_text">
-                        <h2 class="heading2">Challenge 01</h2>
-                        <p class="text1">DevBoost</p>
+            <section class="images_area flex justify_center">
+                    <div class="waves_container">
+                        <img src="assets/Waves.svg" alt="">
+                    </div>  
+
+                    <div class="back_card">
+                        <div class="image_container"></div>
                     </div>
-                </div>
+
+                    <div class="mini_card flex justify_center align_center">
+                        <div class="icon_container lightning"><img src="assets/Lightning.svg" alt=""></div>
+                        <div class="card_text">
+                            <h2 class="heading2">Challenge 01</h2>
+                            <p class="text1">DevBoost</p>
+                        </div>
+                    </div>
             </section>
-        </main>
+        </main> -->
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
